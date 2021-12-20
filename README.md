@@ -10,7 +10,7 @@ gcc multihash -o multihash -lcrypto
 
 ## Run the code 
 ./multihash sha256 3 file1.bin file2.bin
-##Note
+## Note
 with sha256 is the hashing function, you can change it to any function like md5
 3 is the number of times you would to hash the files contaents
 then you provide the files name
